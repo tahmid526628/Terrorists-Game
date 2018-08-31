@@ -211,7 +211,7 @@ void showTank()
 	if (score >= 1200)
 	{
 		iShowImage(eTank.x, eTank.y, eTank.width, eTank.height, enemyTank);
-		iPauseTimer(7);
+		//iPauseTimer(7);
 		if (/*score >= 1200 &&*/ eTank.x >= 750)
 		{
 			eTank.x = eTank.x - TANKSPEED;
